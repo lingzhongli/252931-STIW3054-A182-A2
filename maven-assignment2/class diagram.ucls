@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.plantplaces.maven_assignment2.calculate_course" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/calculate_course.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="178" width="258" x="463" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.plantplaces.maven_assignment2.calculate_day" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/calculate_day.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="221" x="761" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.plantplaces.maven_assignment2.read" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/read.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="142" width="221" x="1022" y="-73"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.plantplaces.maven_assignment2.list" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/list.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="178" width="221" x="1022" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.plantplaces.maven_assignment2.display" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/display.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="229" x="1283" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.plantplaces.maven_assignment2.total_couse" project="maven-assignment2" 
+    file="/maven-assignment2/src/main/java/com/plantplaces/maven_assignment2/total_couse.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="160" width="221" x="1552" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
